@@ -12,7 +12,7 @@ app.use(cors())
 
 app.use("/", (req, res) => {
     res.json({
-        status: "API working Fine",
+        status: "Hello from backend.",
         code: 200
     })
 })
